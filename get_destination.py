@@ -9,10 +9,10 @@ import time
 
 class MyDatabase:
 
-	host = 'newsdb.quody.co'
-	user = 'trinnus'
-	password = 'TFMGXX4BXt5DAHwP'
-	db = 'TripAdvisor'
+	host = ''
+	user = ''
+	password = ''
+	db = ''
 
 	def __init__(self):
 		self.connection = MySQLdb.connect(self.host, self.user, self.password, self.db,use_unicode=1,charset="utf8")
