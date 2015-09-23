@@ -8,7 +8,7 @@ import time
 
 
 class MyDatabase:
-
+	# Don't forget to add your credentials
 	host = ''
 	user = ''
 	password = ''
